@@ -1,4 +1,4 @@
-object LearningScala2 {
+
   // Flow control
   
   // If / else syntax
@@ -70,6 +70,15 @@ object LearningScala2 {
 	 // Write some code that prints out the first 10 values of the Fibonacci sequence.
 	 // This is the sequence where every number is the sum of the two numbers before it.
 	 // So, the result should be 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
-	 
+	def fib(x:Int):Int = {
+		 if(x == 0)
+		 	0
+		 if(x == 1)
+		 	1
+		 else
+		 			fib(x - 1) + fib(x - 2)
+	 }
+
+	fib(2)
+
 	   
-}
