@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Apache-SparkProject.iml" filepath="$PROJECT_DIR$/.idea/modules/Apache-SparkProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Apache-SparkProject-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Apache-SparkProject-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PopularMovies.iml" filepath="$PROJECT_DIR$/.idea/modules/PopularMovies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PopularMovies-build.iml" filepath="$PROJECT_DIR$/.idea/modules/PopularMovies-build.iml" />
     </modules>
   </component>
 </project>

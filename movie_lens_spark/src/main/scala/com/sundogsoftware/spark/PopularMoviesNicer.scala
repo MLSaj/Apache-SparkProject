@@ -62,7 +62,8 @@ object PopularMoviesNicer {
     
     // Collect and print results
     val results = sortedMoviesWithNames.collect()
-    
+
+
     results.foreach(println)
   }
   
