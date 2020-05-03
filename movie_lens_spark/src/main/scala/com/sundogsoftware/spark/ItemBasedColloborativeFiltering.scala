@@ -10,15 +10,27 @@ import scala.io.Codec
 
 object ItemBasedColloborativeFiltering {
 
+  type rating = (Int,(String,Int))
+  type MovieRating = (Int, Double)
+  type UserRatingPair = (Int, (MovieRating, MovieRating))
+
   def parseLine(line:String) = {
     val fields = line.split("\t")
     val movie = fields(1)
-    val user = fields(0)
-    val rating = fields(2)
+    val user = fields(0).toInt
+    val rating = fields(2).toInt
 
     (user, (movie,rating))
 
   }
+
+  def filter_out_bad(rating:rating):Boolean = {
+    val rating_value = rating._2._2
+    return rating_value > 4
+
+  }
+
+
 
 
 
@@ -31,10 +43,14 @@ object ItemBasedColloborativeFiltering {
 
 
     val ratings  = lines.map(parseLine)
+    val good_ratings = ratings.filter(filter_out_bad)
 
-    val all_movies = ratings.join(ratings)
+    val collect = good_ratings.collect()
 
-    val collect = all_movies.collect()
+
+    //val all_movies = ratings.join(ratings)
+
+    //val collect = all_movies.collect()
 
     collect.foreach(println)
 

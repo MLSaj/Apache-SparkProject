@@ -7,4 +7,4 @@ scalaVersion := "2.11.12"
 organization := "com.sundogsoftware"
 
 
-libraryDependencies += "org.apache.spark" %% "spark-core"  % "2.4.5"
+libraryDependencies ++= Seq("org.apache.spark" %% "spark-core"  % "2.4.5")
