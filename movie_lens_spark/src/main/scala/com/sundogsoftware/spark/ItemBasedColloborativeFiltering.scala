@@ -43,14 +43,14 @@ object ItemBasedColloborativeFiltering {
 
 
     val ratings  = lines.map(parseLine)
-    val good_ratings = ratings.filter(filter_out_bad)
+    //val good_ratings = ratings.filter(filter_out_bad)
 
-    val collect = good_ratings.collect()
+    //val collect = good_ratings.collect()
 
 
-    //val all_movies = ratings.join(ratings)
+    val all_movies = ratings.join(ratings)
 
-    //val collect = all_movies.collect()
+    val collect = all_movies.collect()
 
     collect.foreach(println)
 
