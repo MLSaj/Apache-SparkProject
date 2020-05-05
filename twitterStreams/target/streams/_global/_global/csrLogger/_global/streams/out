@@ -1,0 +1,13 @@
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/bahir/spark-streaming-twitter_2.11/2.0.0/spark-streaming-twitter_2.11-2.0.0.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/bahir/bahir-parent_2.11/2.0.0/bahir-parent_2.11-2.0.0.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/4.0.4/twitter4j-stream-4.0.4.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/4.0.4/twitter4j-stream-4.0.4.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/bahir/spark-streaming-twitter_2.11/2.0.0/spark-streaming-twitter_2.11-2.0.0.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/bahir/spark-streaming-twitter_2.11/2.0.0/spark-streaming-twitter_2.11-2.0.0-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/4.0.4/twitter4j-stream-4.0.4-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/4.0.4/twitter4j-stream-4.0.4-javadoc.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4-javadoc.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/bahir/spark-streaming-twitter_2.11/2.0.0/spark-streaming-twitter_2.11-2.0.0-javadoc.jar
